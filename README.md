@@ -1,4 +1,4 @@
-# Agency Shadow — V11 research validation
+# Agency Shadow — V12 research validation
 
 Synthetic research prototype for reactive oversight and transport sensitivity. No human participants, private records or LLM inference in the checked-in results. The sparse violation budget k and proposed edge radii are external assumptions, not learned safety guarantees. Use the direct mode when no defensible assumption exists. A sentinel can test a particular edge from independent confidence intervals; it cannot validate unmeasured edges.
 
@@ -12,6 +12,7 @@ python -m src.cost_design
 python -m src.transport
 python -m src.robust_audit
 python -m src.cut_audit
+python -m src.calibrated_gate
 python -m src.benchmark
 python -m scripts.lp_oracle
 ```
@@ -29,3 +30,6 @@ The endpoint receives synthetic rules and records, not labels or pair IDs. The r
 
 ## V11: cut-witness design
 The KL covering LP is an expected-cost lower bound for a known safe baseline and finite unsafe cut alternatives. The LR gate controls false passes for those listed alternatives only. The LP allocation is not a finite-sample optimum. `upper_bad_count` uses exact hypergeometric inversion for a frozen graph and uniform edge checks; noisy validation costs and the integration with a composite-alternative gate remain research work. Outside-class failures and the cycle baseline are retained in results.
+
+## V12: joint calibration and the obstruction
+The composite noninferiority gate does not take the true reference or violation count as input (except the diagnostic oracle). It combines finite-look simultaneous intervals and a frozen uniform edge sample; all samples are charged. The calibrated and targeted methods did not activate graph inference in the 960-run exploratory suite. Direct audit was cheaper at comparable performance. Keep this negative result: a graph is not automatically useful just because its constraints are plausible. No human or LLM validation, no global novelty claim. The oracle is not a deployable baseline. Full JSON regenerated locally; checked-in CSV summarizes the executed runs.
