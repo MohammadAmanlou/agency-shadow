@@ -1,0 +1,30 @@
+{
+  "cases": 480,
+  "pairs": 240,
+  "families": 4,
+  "rule_oracle": {
+    "all": {
+      "n": 480,
+      "accuracy": 1,
+      "certified": 1
+    },
+    "heldout": {
+      "n": 120,
+      "accuracy": 1,
+      "certified": 1
+    }
+  },
+  "initial_only_constant": {
+    "all": {
+      "n": 480,
+      "accuracy": 0.5,
+      "certified": 0
+    },
+    "heldout": {
+      "n": 120,
+      "accuracy": 0.5,
+      "certified": 0
+    }
+  },
+  "llm_executed": false
+}
