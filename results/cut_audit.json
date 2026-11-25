@@ -1,0 +1,421 @@
+{
+  "seed": 20261125,
+  "trials": 250,
+  "alpha": 0.05,
+  "beta_for_LP": 0.05,
+  "shift": 0.15,
+  "tau": 0.03,
+  "graphs": {
+    "cluster": {
+      "vertices": 12,
+      "edges": 22,
+      "k": 2,
+      "witnesses": [
+        [
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "costs": [
+        9,
+        8,
+        5,
+        4,
+        1,
+        5,
+        7,
+        9,
+        2,
+        5,
+        7,
+        9
+      ],
+      "LP_lower_cost": 175.77670929495108,
+      "LP_dual_cost": 175.77670929495105,
+      "LP_expected_counts": [
+        0,
+        0,
+        0,
+        0,
+        58.592236431650356,
+        0,
+        0,
+        0,
+        58.592236431650356,
+        0,
+        0,
+        0
+      ],
+      "budget": 352,
+      "methods": {
+        "cut_lp": {
+          "baseline_pass": 0.692,
+          "baseline_mean_cost": 251.04,
+          "baseline_mean_pass_cost": 206.10404624277456,
+          "worst_alt_false_pass": 0.024,
+          "mean_alt_false_pass": 0.022
+        },
+        "uniform_candidates": {
+          "baseline_pass": 0.004,
+          "baseline_mean_cost": 351.652,
+          "baseline_mean_pass_cost": 265,
+          "worst_alt_false_pass": 0,
+          "mean_alt_false_pass": 0
+        },
+        "equal_spend_informative": {
+          "baseline_pass": 0.192,
+          "baseline_mean_cost": 338.324,
+          "baseline_mean_pass_cost": 280.7708333333333,
+          "worst_alt_false_pass": 0.008,
+          "mean_alt_false_pass": 0.008
+        }
+      }
+    },
+    "cycle": {
+      "vertices": 8,
+      "edges": 8,
+      "k": 2,
+      "witnesses": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "costs": [
+        9,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LP_lower_cost": 1640.58262008621,
+      "LP_dual_cost": 1640.58262008621,
+      "LP_expected_counts": [
+        0,
+        58.592236431650356,
+        58.592236431650356,
+        58.592236431650356,
+        58.592236431650356,
+        58.592236431650356,
+        58.592236431650356,
+        58.592236431650356
+      ],
+      "budget": 3282,
+      "methods": {
+        "cut_lp": {
+          "baseline_pass": 0.22,
+          "baseline_mean_cost": 3160,
+          "baseline_mean_pass_cost": 2727.4545454545455,
+          "worst_alt_false_pass": 0.016,
+          "mean_alt_false_pass": 0.0012857142857142859
+        },
+        "uniform_candidates": {
+          "baseline_pass": 0.236,
+          "baseline_mean_cost": 3153.608,
+          "baseline_mean_pass_cost": 2737.9661016949153,
+          "worst_alt_false_pass": 0.016,
+          "mean_alt_false_pass": 0.001
+        },
+        "equal_spend_informative": {
+          "baseline_pass": 0.176,
+          "baseline_mean_cost": 3175.564,
+          "baseline_mean_pass_cost": 2677.25,
+          "worst_alt_false_pass": 0.008,
+          "mean_alt_false_pass": 0.0004285714285714286
+        }
+      }
+    },
+    "path": {
+      "vertices": 8,
+      "edges": 7,
+      "k": 1,
+      "witnesses": [
+        [
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6,
+          7
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "costs": [
+        9,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "LP_lower_cost": 468.73789145320285,
+      "LP_dual_cost": 468.7378914532029,
+      "LP_expected_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        58.592236431650356
+      ],
+      "budget": 938,
+      "methods": {
+        "cut_lp": {
+          "baseline_pass": 0.844,
+          "baseline_mean_cost": 530.08,
+          "baseline_mean_pass_cost": 455.0521327014218,
+          "worst_alt_false_pass": 0.048,
+          "mean_alt_false_pass": 0.029142857142857147
+        },
+        "uniform_candidates": {
+          "baseline_pass": 0.044,
+          "baseline_mean_cost": 926.412,
+          "baseline_mean_pass_cost": 696.3636363636364,
+          "worst_alt_false_pass": 0,
+          "mean_alt_false_pass": 0
+        },
+        "equal_spend_informative": {
+          "baseline_pass": 0.02,
+          "baseline_mean_cost": 933.64,
+          "baseline_mean_pass_cost": 720,
+          "worst_alt_false_pass": 0,
+          "mean_alt_false_pass": 0
+        }
+      }
+    }
+  },
+  "outside_class": {
+    "shifted_node": 1,
+    "violated_edges": 4,
+    "assumed_k": 2,
+    "false_pass": 0.732
+  },
+  "edge_count_examples": [
+    {
+      "M": 50,
+      "n": 0,
+      "observed_bad": 0,
+      "upper_95": 50
+    },
+    {
+      "M": 50,
+      "n": 10,
+      "observed_bad": 0,
+      "upper_95": 11
+    },
+    {
+      "M": 50,
+      "n": 20,
+      "observed_bad": 0,
+      "upper_95": 5
+    },
+    {
+      "M": 50,
+      "n": 30,
+      "observed_bad": 0,
+      "upper_95": 3
+    },
+    {
+      "M": 50,
+      "n": 50,
+      "observed_bad": 0,
+      "upper_95": 0
+    },
+    {
+      "M": 50,
+      "n": 20,
+      "observed_bad": 1,
+      "upper_95": 9
+    },
+    {
+      "M": 50,
+      "n": 30,
+      "observed_bad": 2,
+      "upper_95": 7
+    }
+  ]
+}
