@@ -1,0 +1,23 @@
+{
+  "seed": 20261125,
+  "participants_per_single_probe_arm": 1200,
+  "horizon": 12,
+  "trials": 300,
+  "repeated_participants": 100,
+  "audit_budget_staggered": 1200,
+  "audit_budget_repeated": 1200,
+  "true_terminal_stable": 0.8,
+  "true_terminal_erosion": 0.25,
+  "repeated_terminal_mean": 0.8031,
+  "staggered_terminal_mean": 0.25586666666666663,
+  "staggered_stable_terminal_mean": 0.8027666666666666,
+  "repeated_terminal_rmse_as_clean_estimator": 0.5545613882460023,
+  "staggered_terminal_rmse": 0.043351278335630815,
+  "geometric_terminal_expected_clean_n": 0.29296875,
+  "geometric_terminal_empty_rate": 0.73,
+  "geometric_terminal_theoretical_empty_rate": 0.7460187697227041,
+  "example_sharp_interval": [
+    0.45000000000000007,
+    0.65
+  ]
+}
