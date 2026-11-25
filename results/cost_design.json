@@ -1,0 +1,24 @@
+{
+  "seed": 20261125,
+  "trials": 2000,
+  "costs": [
+    20,
+    4,
+    1
+  ],
+  "bias_bounds": [
+    0,
+    0.02,
+    0.12
+  ],
+  "epsilon": 0.08,
+  "alpha": 0.05,
+  "selected_history": 1,
+  "n": 513,
+  "cost": 2052,
+  "clean_n": 289,
+  "clean_cost": 5780,
+  "cost_reduction_fraction": 0.6449826989619377,
+  "minimax_cost_lower_bound": 184.02743619790252,
+  "synthetic_coverage": 0.9955
+}
