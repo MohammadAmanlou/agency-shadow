@@ -15,3 +15,4 @@ jobs:
       - run: python -m src.transport
       - run: python -m src.robust_audit
       - run: python -m src.benchmark
+      - run: python -m src.cut_audit
