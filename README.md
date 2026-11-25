@@ -1,4 +1,4 @@
-# Agency Shadow — V10 research validation
+# Agency Shadow — V11 research validation
 
 Synthetic research prototype for reactive oversight and transport sensitivity. No human participants, private records or LLM inference in the checked-in results. The sparse violation budget k and proposed edge radii are external assumptions, not learned safety guarantees. Use the direct mode when no defensible assumption exists. A sentinel can test a particular edge from independent confidence intervals; it cannot validate unmeasured edges.
 
@@ -11,6 +11,7 @@ python -m src.experiment
 python -m src.cost_design
 python -m src.transport
 python -m src.robust_audit
+python -m src.cut_audit
 python -m src.benchmark
 python -m scripts.lp_oracle
 ```
@@ -25,3 +26,6 @@ python -m src.benchmark --endpoint http://127.0.0.1:8000/v1/chat/completions --m
 ```
 
 The endpoint receives synthetic rules and records, not labels or pair IDs. The runner tests factual resolution and evidence citations, not human behavior or learned agency. LLM run not yet performed. Do not use the gate to authorize deployment; a relative agency criterion is only one component of evaluation.
+
+## V11: cut-witness design
+The KL covering LP is an expected-cost lower bound for a known safe baseline and finite unsafe cut alternatives. The LR gate controls false passes for those listed alternatives only. The LP allocation is not a finite-sample optimum. `upper_bad_count` uses exact hypergeometric inversion for a frozen graph and uniform edge checks; noisy validation costs and the integration with a composite-alternative gate remain research work. Outside-class failures and the cycle baseline are retained in results.
